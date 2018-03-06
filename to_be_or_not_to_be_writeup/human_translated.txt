@@ -1,0 +1,231 @@
+push_stack E
+print character
+push_stack n
+print character
+push_stack t
+print character
+push_stack e
+print character
+push_stack r
+print character
+push_stack space
+print character
+push_stack 1
+push_stack c
+store
+push_stack 2
+push_stack 1
+store
+push_stack 3
+push_stack 1
+store
+push_stack t
+print character
+push_stack h
+print character
+push_stack e
+print character
+push_stack space
+print character
+push_stack 4
+push_stack c
+store
+push_stack 5
+push_stack 2
+store
+push_stack f
+print character
+push_stack l
+print character
+push_stack 6
+push_stack 4
+store
+push_stack a
+print character
+push_stack 7
+push_stack 4
+store
+push_stack g
+print character
+push_stack 40
+print character
+push_stack 8
+push_stack 8
+store
+push_stack b
+print character
+push_stack 9
+push_stack c
+store
+push_stack y
+print character
+push_stack space
+print character
+push_stack c
+print character
+push_stack h
+print character
+push_stack 10
+push_stack 1
+store
+push_stack 11
+push_stack 1
+store
+push_stack a
+print character
+push_stack r
+print character
+push_stack 44
+print character
+push_stack z
+print character
+push_stack space
+print character
+push_stack t
+print character
+push_stack o
+print character
+push_stack space
+print character
+push_stack 12
+push_stack c
+store
+push_stack f
+print character
+push_stack i
+print character
+push_stack n
+print character
+push_stack i
+print character
+push_stack s
+print character
+push_stack h
+print character
+push_stack 41
+print character
+push_stack :
+print character
+push_stack 10
+duplicate_stack
+print character
+print character
+push_stack 20
+push_stack c
+store
+push_stack 21
+push_stack h
+store
+push_stack 22
+push_stack a
+store
+push_stack 23
+push_stack r
+store
+push_stack 24
+push_stack :
+store
+push_stack 25
+push_stack 0
+store
+push_stack 30
+push_stack 1
+store
+push_stack 31
+push_stack 0
+store
+mark location 1
+push_stack 20
+mark location 3
+duplicate_stack
+retrieve
+duplicate_stack
+jump if top stack is zero 7
+print character
+push_stack 1
+add
+jump to label 3
+mark location 7
+discard stack
+push_stack 2
+read character
+push_stack 2
+retrieve
+duplicate_stack
+push_stack z
+substract
+jump if top stack is zero 31
+push_stack 1
+add
+push_stack 30
+retrieve
+duplicate_stack
+push_stack 1
+add
+push_stack 30
+swap stack
+store
+retrieve
+substract
+jump if top stack is zero 15
+push_stack 31
+retrieve
+push_stack 1
+add
+push_stack 31
+swap stack
+store
+mark location 15
+push_stack 2
+read character
+jump to label 1
+mark location 31
+push_stack 30
+retrieve
+push_stack 13
+substract
+jump if top stack is zero 255
+jump to label 511
+mark location 255
+push_stack 31
+retrieve
+jump if top stack is zero 127
+mark location 511
+push_stack B
+print character
+push_stack a
+print character
+push_stack d
+print character
+push_stack space
+print character
+push_stack f
+print character
+push_stack l
+print character
+push_stack a
+print character
+push_stack g
+print character
+jump to label 63
+mark location 127
+push_stack G
+print character
+push_stack o
+print character
+push_stack o
+print character
+push_stack d
+print character
+push_stack space
+print character
+push_stack f
+print character
+push_stack l
+print character
+push_stack a
+print character
+push_stack g
+print character
+mark location 63
+end program
